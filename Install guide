@@ -1,0 +1,10 @@
+Install guide
+
+CMD:
+pyinstaller ^
+    --name GUIUXConstrSpec ^
+    --onefile ^
+    --windowed ^
+    --add-data "assets;assets" ^
+    --add-data "translations;translations" ^
+    main.py
