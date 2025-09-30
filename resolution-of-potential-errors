@@ -1,4 +1,10 @@
-Понял. Это очень **распространенная и известная** проблема, она не связана с нашим кодом, а с тем, как Python находит нужные файлы PyQt/PySide.
+Ошибка:
+>python main.py
+qt.qpa.plugin: Could not find the Qt platform plugin "windows" in ""
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+
+Это очень **распространенная и известная** проблема, она не связана с нашим кодом, а с тем, как Python находит нужные файлы PyQt/PySide.
 
 **Простыми словами:**
 Программа пытается запуститься и говорит: "Мне нужен плагин 'windows', чтобы я могла рисовать окна, кнопки и т.д. для Windows". Но она не может найти, где этот плагин лежит.
